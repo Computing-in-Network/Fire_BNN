@@ -9,7 +9,7 @@ from PIL import Image
 # 配置中心（TCP 发送端）
 # ==========================================================
 CONFIG = {
-    "dst_ip": "127.0.0.1",   # 接收端容器 IP
+    "dst_ip": "192.168.96.3",   # 接收端容器 IP
     "dst_port": 5005,            # 接收端监听端口
 
     "patch_dir": "./TCP/test_images",  # 16x16 patch 目录（文件名含 _x*_y*）
